@@ -1,0 +1,46 @@
+	#frame
+	{
+		width: 1000px; /* ширина */
+		background-color: mediumaquamarine; /* цвет фона */
+		margin: auto; /* выравнивание по центру */
+		display: table; /* отображение в табличной форме представления */
+		height: 100%;
+	}
+	#header
+	{
+		width: 940px; /* ширина */
+		height: 58px; /* высота */
+		background-color: dimgrey;
+		margin: auto; /* выравнивание по центру */
+		margin-top: 10px; /* отсутп по верхней границы сайта */
+		padding: 20px; /* внутренний отступ */
+		text-align: center;
+	}
+	#footer
+	{
+		width: 940px; /* ширина */
+		height: 58px; /* высота */
+		background-color: seagreen;
+		margin: auto; /* выравнивание по центру */
+		margin-top: 10px; /* отсутп по верхней границы сайта */
+		padding: 20px; /* внутренний отступ */
+		text-align: center;
+		display: table-footer-group; /* представляем как футер будет выглядеть */
+	}
+	#content
+	{
+		width: 700px; /* ширина */
+		height: 500px; /* высота */
+		background-color: sandybrown;
+		float: left; /* выравнивание блока (слева) */
+	}
+	/* font-size размер шрифта*/
+	#sidebar
+	{
+		background-color: peachpuff; /* цвет фона */
+		width: 200px;
+		height: 700px;
+		margin: unset;
+		float: right;
+		
+	}
